@@ -1,7 +1,5 @@
-export default function Footer() {
+export default function Footer(props:any) {
   return (
-    <div>
-      <p>Copyright ©</p>
-    </div>
+      <>Copyright © {props.year} {props.fullName} {props.studentId}</>
   );
 }
